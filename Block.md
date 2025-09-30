@@ -9,7 +9,6 @@ flowchart LR
         F --> G[Partial Burn / Retirement]
         G --> H[Blockchain Events Log (Redeemed/Retired)]
     end
-
     subgraph Metadata["Metadata & Audit"]
         D --> I[Project ID, Vintage, Certificates Hash]
         G --> I
